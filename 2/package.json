@@ -1,0 +1,12 @@
+{
+  "name": "caesar_cipher_for_ru",
+  "version": "1.0.0",
+  "description": "This is Caesar cipher for Russian alphabit",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "lebro53",
+  "license": "ISC"
+}
