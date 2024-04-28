@@ -4,6 +4,8 @@ const fs = require("fs");
 
 const filePath = path.join(__dirname, "users.json");
 
+fs.existsSync(filePath) || fs.writeFileSync(filePath, JSON.stringify([]));
+
 const readFileSyncUsers = () => {
   try {
     return JSON.parse(fs.readFileSync(filePath, "utf8"));
